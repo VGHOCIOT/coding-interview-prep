@@ -1,0 +1,8 @@
+{
+  "id": "2026-06-25/dsa-container-most-water",
+  "slug": "dsa-container-most-water",
+  "title": "Container With Most Water",
+  "difficulty": "medium",
+  "type": "dsa",
+  "languages": ["python", "typescript", "javascript"]
+}

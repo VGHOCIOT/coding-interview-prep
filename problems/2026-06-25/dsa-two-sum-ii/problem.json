@@ -1,0 +1,8 @@
+{
+  "id": "2026-06-25/dsa-two-sum-ii",
+  "slug": "dsa-two-sum-ii",
+  "title": "Two Sum II — Sorted Array",
+  "difficulty": "medium",
+  "type": "dsa",
+  "languages": ["python", "typescript", "javascript"]
+}

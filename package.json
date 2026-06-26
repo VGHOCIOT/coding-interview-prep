@@ -1,10 +1,13 @@
 {
   "name": "interview-practice",
   "version": "1.0.0",
-  "description": "Daily coding interview practice — job-realistic build tasks + DSA pattern problems",
+  "description": "Daily coding interview practice — LeetCode-style web app",
   "private": true,
   "scripts": {
-    "run:ts": "npx tsx"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
