@@ -1,8 +1,8 @@
-function maxArea(height: number[]): number {
-  // Find two lines that form the container holding the most water.
-  // Brute force is O(n²) — justify why moving the shorter pointer inward is safe.
+function twoSum(numbers: number[], target: number): number[] {
+  // Array is sorted. Use two pointers — no hash map allowed (O(1) space).
+  // Return 1-indexed positions.
   // TODO: implement
-  return 0;
+  return [];
 }
 
 
@@ -26,8 +26,8 @@ function runTests(cases: Array<[string, unknown, unknown]>): void {
 }
 
 runTests([
-  ["standard example",   maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]), 49],
-  ["minimum two lines",  maxArea([1, 1]),                         1],
-  ["descending heights", maxArea([4, 3, 2, 1]),                   4],
-  ["equal heights",      maxArea([5, 5, 5, 5]),                  15],
+  ["basic pair",        twoSum([2, 7, 11, 15], 9),  [1, 2]],
+  ["non-adjacent pair", twoSum([2, 3, 4], 6),        [1, 3]],
+  ["negative numbers",  twoSum([-1, 0], -1),         [1, 2]],
+  ["pair at end",       twoSum([1, 2, 3, 4, 5], 9),  [4, 5]],
 ]);
